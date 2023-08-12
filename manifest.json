@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "YAdsRemove",
+    "version": "1.0",
+  
+    "description": "Removes youtube ads from the youtube video",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["remover.js"]
+      }
+    ]
+}
