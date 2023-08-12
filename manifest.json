@@ -6,7 +6,7 @@
     "description": "Removes youtube ads from the youtube video",
   
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "icons/logo.png"
     },
   
     "content_scripts": [
